@@ -16,7 +16,8 @@ A FinLend enfrenta três desafios:
 
 | Arquivo | Descrição |
 |---|---|
-| `parte2_executado.ipynb` | **Parte 2** — Notebook de análise estatística da inadimplência (EDA, teste de hipótese, insight não-óbvio e recomendação), com os resultados já renderizados. |
+| `Parte 2 — Análise Estatística com Python.ipynb` | **Parte 2** — Notebook de análise estatística da inadimplência (EDA, teste de hipótese, insight não-óbvio e recomendação), com os resultados já renderizados. |
+| `Parte 3 — Curadoria e Validação de IA Generativa.ipynb` | **Parte 3** — Notebook de validação das respostas do agente de IA sobre a carteira. |
 | `extracao_e_preparacao_looker.py` | Script de extração e preparação da amostra (~100k registros estratificados por *grade*, safras 2016–2018) a partir do dataset bruto do Kaggle. Gera o CSV usado nas análises. |
 | `base_looker_finlend.csv` | Amostra tratada (~100k linhas) usada pelo notebook e pelo dashboard. Separador `;`, decimal `,` (formato pt-BR). |
 | `requirements.txt` | Dependências Python para rodar o notebook. |
@@ -51,7 +52,7 @@ sobre a carteira, com proposta de processo recorrente de validação.
 
 ```bash
 pip install -r requirements.txt
-jupyter notebook parte2_executado.ipynb
+jupyter notebook "Parte 2 — Análise Estatística com Python.ipynb"
 ```
 
 O notebook lê `base_looker_finlend.csv` da mesma pasta.
