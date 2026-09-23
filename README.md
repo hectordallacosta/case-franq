@@ -45,8 +45,16 @@ Principais achados:
 
 ## Parte 3 — Validação de IA generativa
 
-_(a desenvolver)_ Validação quantitativa e qualitativa das respostas do agente de IA
-sobre a carteira, com proposta de processo recorrente de validação.
+Principais achados:
+
+- **A resposta do agente não deve ser liberada:** recalculando cada número na base,
+  só 2 dos 7 estão corretos (juros e % em grades B/C). As taxas de inadimplência
+  estão **infladas em cerca de 2x** (12,3% vs 7,5% reais).
+- **Conclusão invertida:** o agente diz que consolidação de dívidas está *abaixo* da
+  média de risco; nos dados, está **acima** (7,5% vs 7,0%).
+- **Proposta:** fazer o agente consultar a base em vez de "lembrar" números, citando
+  fonte e ressalvas, e validar continuamente com um conjunto de perguntas-referência
+  com respostas calculadas por código.
 
 ## Como reproduzir
 
