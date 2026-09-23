@@ -18,7 +18,7 @@ A FinLend enfrenta três desafios:
 |---|---|
 | `parte2_executado.ipynb` | **Parte 2** — Notebook de análise estatística da inadimplência (EDA, teste de hipótese, insight não-óbvio e recomendação), com os resultados já renderizados. |
 | `extracao_e_preparacao_looker.py` | Script de extração e preparação da amostra (~100k registros estratificados por *grade*, safras 2016–2018) a partir do dataset bruto do Kaggle. Gera o CSV usado nas análises. |
-| `base_looker_finlend.csv` | Amostra tratada (~100k linhas) usada pelo notebook e pelo dashboard. Separador `;`, decimal `.`. |
+| `base_looker_finlend.csv` | Amostra tratada (~100k linhas) usada pelo notebook e pelo dashboard. Separador `;`, decimal `,` (formato pt-BR). |
 | `requirements.txt` | Dependências Python para rodar o notebook. |
 
 ## Parte 1 — Dashboard (Looker Studio)
