@@ -28,7 +28,7 @@ Dashboard de acompanhamento da carteira, com visão geral, indicadores de
 inadimplência, filtros interativos e um elemento de *self-service* (drill-down
 *grade → sub-grade*).
 
-🔗 **Link:** _(inserir o link de compartilhamento do Looker Studio aqui)_
+🔗 **Link:** [Dashboard FinLend no Looker Studio](https://datastudio.google.com/reporting/f3e64506-0d99-4e6a-a946-dead9ad07bd4)
 
 ## Parte 2 — Análise estatística (Python)
 
